@@ -134,6 +134,30 @@ public class ResolucionExamen {
             i++;  
         }
     }   
+
+    public  void name() {
+        int n,j=1,numper=0,i=1;
+        n=tec.leer(0, "Ingrese el rango:");
+
+        while (i<=n) {
+            while (j<i) {
+                if (i %j==0) {
+
+                    numper=numper+j;
+                    
+                }
+
+
+                j++;
+
+            }
+            i++;
+        }
+        if (i==numper) {
+            System.out.println(i);
+            
+        } 
+    }
     
 
     public  void Ejercicio5() {
