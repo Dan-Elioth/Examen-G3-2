@@ -116,16 +116,13 @@ public class ResolucionExamen {
         System.out.println("→→→→→→→→☻Los numero perfectos son:☻←←←←←←←→");
 
         while(i<=rango){ 
-
             suma=0;    
             while(j < i){                           
                 if(i % j==0){
                     suma = suma + j; 
                 }
-
                 j++;
             }
-
             if(i == suma){
                 sec++;
                 if (sec<=canti) {
@@ -134,47 +131,10 @@ public class ResolucionExamen {
                     break;
                 }  
             }
-
             i++;  
         }
-    }
-
-    public  void Ejer() {
-        System.out.println("---------------->Ejercicio4<----------------");
-
-        int rango=tec.leer(0,"Ingrese el rango (hasta donde quiere saber cuantos numeros perfectos hay) :");
-        int i=1, j=1, suma, sec=0;
-        int canti=tec.leer(0, "Ingrese cuantos numeros perfectos desea ver (dentro del rango): ");
-        System.out.println("→→→→→→→→☻Los numero perfectos son:☻←←←←←←←→");
-
-        while (i<=rango) {  
-
-            suma=0;
-            while (j<i){
-                if (i %j==0) {
-                    suma = suma + j;  
-                }
-               
-                j=j+1;
-            }   
-            if (i==suma) {
-                sec=sec+1;
-                if (sec<=canti) {
-
-                    System.out.println(i);
-                    
-                }else{
-                    break;
-                }
-            }
-
-            i=i+1;
-        }
-
-
-        
-    }
-
+    }   
+    
 
     public  void Ejercicio5() {
 
