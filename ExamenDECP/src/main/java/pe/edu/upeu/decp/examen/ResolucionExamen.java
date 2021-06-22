@@ -12,7 +12,7 @@ public class ResolucionExamen {
 
     public void Ejercicio2() {
 
-        System.out.println("---------------->Ejercicio1<----------------");
+        System.out.println("---------------->Ejercicio2<----------------");
 
         //variables
         int nCar=1;
@@ -60,13 +60,13 @@ public class ResolucionExamen {
 
     public  void Ejercicio3() {
 
-        System.out.println("---------------->Ejercicio2<----------------");
+        System.out.println("---------------->Ejercicio3<----------------");
 
         //variables
         int m=0;
 
         for (int i = 1; i <= 20; i++) {
-            System.out.println("\n La tabla del numero "+i+" es el siguiente \n"); 
+            System.out.println("\n ---------------->La tabla del numero "+i+" es el siguiente<---------------- \n"); 
 
             for (m = 1; m <= 10; m++) {  
 
@@ -108,6 +108,8 @@ public class ResolucionExamen {
     
     public  void Ejercicio41() {
 
+        //ing... no me sale con  estructura while  :(
+
         System.out.println("---------------->Ejercicio4<----------------");
 
         int rango=tec.leer(0,"Ingrese el rango (hasta donde quiere saber cuantos numeros perfectos hay) :");
@@ -134,30 +136,6 @@ public class ResolucionExamen {
             i++;  
         }
     }   
-
-    public  void name() {
-        int n,j=1,numper=0,i=1;
-        n=tec.leer(0, "Ingrese el rango:");
-
-        while (i<=n) {
-            while (j<i) {
-                if (i %j==0) {
-
-                    numper=numper+j;
-                    
-                }
-
-
-                j++;
-
-            }
-            i++;
-        }
-        if (i==numper) {
-            System.out.println(i);
-            
-        } 
-    }
     
 
     public  void Ejercicio5() {

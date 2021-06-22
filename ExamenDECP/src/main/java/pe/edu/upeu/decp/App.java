@@ -21,7 +21,7 @@ public class App
         //LeerTeclado tec=new LeerTeclado();
         
         //int modulo=tec.leer(1, "----------→Introduzca un numero del 1 al 5, ojo no hay el numero 3←---------- " );
-        /*int dato;
+        int dato;
         System.out.println("----------→ Introduzca un numero del 2 al 5 ←---------- ");
         dato=tec.nextInt();
 
@@ -41,8 +41,8 @@ public class App
             if (dato==0) {
                 System.exit(0);       
             }
-        }*/
-        obj.name();
+        }
+ 
 
     
     }
